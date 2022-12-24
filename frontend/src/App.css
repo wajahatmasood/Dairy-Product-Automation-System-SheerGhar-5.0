@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  /* cursor: url(https://res.cloudinary.com/sheerghar/image/upload/v1669372487/Logo/cursor_s42tdz.png), auto; */
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  font-size: 1.4rem !important;
+}

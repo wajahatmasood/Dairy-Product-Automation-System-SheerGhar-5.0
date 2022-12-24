@@ -1,0 +1,58 @@
+/* .speedDial {
+  position:fixed;
+  right: 90vmax;
+  top: 22vmax;  
+}
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+@media (max-width: 998px) {
+  .speedDial {
+    position: fixed;
+    right: 40vmax;
+    top: 47vmax;
+  }
+  
+} */
+
+/* .speedDial {
+  position: fixed;
+  right:90vmax;
+  top: 21.5vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+@media (max-width: 900px) {
+  .speedDial {
+    position: fixed;
+    right: 6vmax;
+    top: 35vmax;
+  }
+  
+} */
+
+.speedDial {
+  position: fixed;
+  right:85vmax;
+  top: 21.5vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+@media (max-width: 900px) {
+  .speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 10vmax;
+  }
+  
+} 

@@ -1,0 +1,8 @@
+.eye{
+background: none;
+border: none;
+cursor: pointer;
+margin-left: -3rem;
+}
+.eye:hover{
+    color: #00d2ff;}

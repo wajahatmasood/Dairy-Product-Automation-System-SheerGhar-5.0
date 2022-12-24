@@ -1,0 +1,65 @@
+.container {
+    margin-top: 6rem;
+}
+    .contact-form {
+      max-width: 50rem;
+      margin: auto;
+    }
+
+    .contact-inputs {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    
+    }
+    .inpuut{
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+        background-color: white;
+        border: none;
+        color: rgba(0, 0, 0, 0.637);
+        padding: 1vmax 2vmax;
+        width: 100%;
+        outline: none;
+        border-radius: 0%;
+        font: 300 1.1vmax "Roboto";
+        box-sizing: border-box;
+        height: 8%;
+      }
+
+ .btttn{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    background-color: rgba(0, 167, 233, 0.616);
+    border: none;
+    color: rgba(0, 0, 0, 0.637);
+    padding: 1vmax 2vmax;
+    width: 100%;
+    outline: none;
+    border-radius: 0%;
+    font: 300 1.1vmax "Roboto";
+    box-sizing: border-box;
+    height: 8%;
+ }
+
+ .homeHeading {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.4vmax;
+    /* border-bottom: 1px solid rgba(21, 21, 21, 0.5); */
+    /* width: 20vmax; */
+    /* padding: 1vmax; */
+    /* margin: 5vmax auto; */
+    color: rgb(0, 0, 0, 0.7);
+  }
+  
+
+  @media screen and (max-width: 1000px) {
+    .btttn {
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax ;
+      }
+      .inpuut{
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax ;
+      }
+  }

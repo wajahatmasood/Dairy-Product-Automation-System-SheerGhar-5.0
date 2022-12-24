@@ -1,0 +1,148 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3.6rem;
+}
+.card{
+    width: 250px;
+    height: auto;
+    position: relative;
+    background:#d3f2fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 20px;
+    transition: all .3s ease-in;
+}
+.card > *{
+    padding: 10px;
+}
+.card .card-image{
+    height: 150px;
+    width: 150px;
+    /* border: 5px double #022a3c; */
+    /* border-radius: 50%; */
+    background-position: center center;
+    background-size: cover;    
+}
+.card .card-title{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px #262654;
+}
+.card:nth-child(1) .card-image{
+    background-image: url(../../../public/millllk.png);
+    /* background-image: url(); */
+}
+.card:nth-child(2) .card-image{
+    background-image: url(../../../public/cheese.png);
+    width: 100%;
+    
+  
+}
+.card:nth-child(3) .card-image{
+    background-image: url(../../../public/butter.png);
+    width: 20rem;
+}
+.card:nth-child(4) .card-image{
+    background-image: url(../../../public/Yougert.png);
+    width: 20rem;
+}
+.card:hover{
+    background:  #A9E2F5;
+    color: #0591C0;
+}
+#card1:hover{
+    background:  #fef4bf;
+    color: #0591C0;
+}
+
+#card2:hover{
+    background: #FEF9D7;
+    color: #0591C0;
+}
+#card3:hover{
+    background: #ecebeb;
+    color: #0591C0;
+}
+.card .card-text{
+    line-height: 20px;
+    font-size: 1.2rem;
+}
+
+.readmore{
+    cursor: pointer;
+}
+
+
+/* ------------------------------ */
+/*  Our clients */
+/* ------------------------------ */
+
+
+
+.our-clients {
+	width: 90%;
+	height: auto;
+    margin: auto;
+	text-align: center;
+    background-color: #c7edfa;;
+    border-radius: 3rem;
+}
+
+.our-clients ul {
+	padding: 0;
+	margin: 0;
+}
+
+.our-clients ul li {
+	list-style: none;
+	display: inline-block;
+	width:180px;
+	height:100px;
+	position: relative;
+	overflow: hidden;
+	cursor:pointer;
+	margin: 10px;
+	box-shadow: 0px 0px 10px -7px #555;
+	transition: .5s;
+}
+
+.our-clients ul li img {
+	width: 100%;
+	height: 100%;
+}
+.our-clients ul li img:nth-child(1) {
+	transform: translateY(0);
+	transition: .5s;
+}
+.our-clients ul li img:nth-child(2) {
+	transform: translateY(0);
+	transition: .5s;
+}
+
+/*Hover-Section*/
+
+
+.our-clients ul li:hover img:nth-child(1) {
+	transform: translateY(-100%);
+	transition: .5s;
+}
+.our-clients ul li:hover img:nth-child(2) {
+	transform: translateY(-100%);
+	transition: .5s;
+}
+
+  
+@media screen and (max-width: 600px) {
+    .our-clients {
+    
+        background-color: #fcfcfc;;
+  
+    }
+}

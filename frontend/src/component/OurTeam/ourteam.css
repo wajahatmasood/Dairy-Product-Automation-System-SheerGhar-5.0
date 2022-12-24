@@ -1,0 +1,99 @@
+/* @import url("https://fonts.googleapis.com/css?family=Cute+Font|Open+Sans&display=swap");
+
+
+
+body {
+  background: #f4f4f4;
+} */
+
+.team{
+    background-color: white;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+
+}
+.wrapper {
+  margin-top: 50px;
+}
+
+.wrapper .title {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  margin: 0 auto 30px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  font-size: 58px;
+  text-transform: uppercase;
+  font-family: "Cute Font", cursive;
+  color: #7bbb5e;
+}
+
+.wrapper .team {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.wrapper .team .team_member {
+  width: 325px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+  padding: 25px;
+  transition: 0.5s;
+}
+
+.wrapper .team .team_member img {
+  width: 100px;
+}
+
+.wrapper .team .team_member h3 {
+  color: #444;
+  font-size: 1.6rem !important;
+}
+
+.wrapper .team .team_member span {
+  font-size: 12px;
+  color: #999;
+}
+
+.wrapper .team .team_member p {
+  margin: 15px 0;
+}
+
+.wrapper .team .team_member .btn_grp {
+  display: flex;
+}
+
+.wrapper .team .team_member .btn_grp a {
+  background: #ddd;
+  display: block;
+  width: 125px;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #444;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.wrapper .team .team_member .btn_grp a:first-child:hover {
+  background: #7bbb5e;
+  color: #fff;
+}
+
+.wrapper .team .team_member .btn_grp a:last-child:hover {
+  background: #3a8bbb;
+  color: #fff;
+}
+.team_member:hover{
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.342);
+  border-bottom: #444 solid;
+  transform: scale(1.1);
+}
